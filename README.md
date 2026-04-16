@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Keen Keeper
+
+Keen Keeper is a simple app made with Next.js to help you manage your friends and stay connected. You can track when you last contacted someone and see your relationship status easily.
+
+
+## Live Link: 
+## Features 
+View a list of friends from public/friends.json
+Search friends by name
+Open individual friend details page (/friendDetails/[id])
+Quick actions: Call, Text, Video
+Timeline page with interaction filters
+Stats page with charts and summary
+Toast messages after actions
+
+
+# Pages & Routes
+/ → Home page (friends list + overview)
+/time_line → Timeline of interactions
+/stats → Analytics & charts
+/friendDetails/[id] → Single friend details
+
+## Tech Stack
+
+Tech Stack
+Next.js 16
+React 19
+Tailwind CSS 4
+DaisyUI 5
+Lucide React
+Recharts
+React Toastify
+React Spinners
+
+## Project Structure
+
+src/
+  app/
+    friendDetails/[id]/
+    stats/
+    time_line/
+  Components/
+    Friends/
+    Header/
+    Footer/
+    Stats/
+    ContactHis/
+    TimlineButton/
+  Context/
+  Hooks/
+
+public/
+  friends.json
+  images/
+  Icons/
 
 ## Getting Started
 
-First, run the development server:
+1. Install dependencies:
+
+```bash
+npm install
+```
+
+2. Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Open `http://localhost:3000`
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+# Scripts
+npm run dev → Start development server
+npm run build → Build for production
+npm run start → Run production server
+npm run lint → Check code quality
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Data Source
 
-## Learn More
+- Friend list data is stored locally in `public/friends.json`
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Notes
+Uses Next.js App Router (src/app)
+Shared layout includes header, footer, and toast
+Styling done with Tailwind + DaisyUI
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Improvement Ideas
 
-## Deploy on Vercel
+- Add persistent storage for timeline activity
+- Connect the "Add Friend" button to a form flow
+- Replace remote details fetch with a shared local/server data source
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
