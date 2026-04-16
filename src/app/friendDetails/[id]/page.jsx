@@ -16,7 +16,7 @@ const page = async ({ params }) => {
 
 
     const dataPromise = async () => {
-        const res = await fetch('http://localhost:3000/friends.json', {
+        const res = await fetch('https://courageous-fox-f6c3ed.netlify.app/friends.json', {
             cache: 'no-store'
         })
         const data = await res.json()
