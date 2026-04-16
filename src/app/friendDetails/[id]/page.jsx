@@ -1,6 +1,6 @@
-import CallBtn from '@/Components/TimlineButton/CallBtn';
-import TextBtn from '@/Components/TimlineButton/TextBtn';
-import VideoBtn from '@/Components/TimlineButton/VideoBtn';
+import CallBtn from '@/components/TimlineButton/CallBtn';
+import TextBtn from '@/components/TimlineButton/TextBtn';
+import VideoBtn from '@/components/TimlineButton/VideoBtn';
 import { Archive, BellDot, Trash2 } from 'lucide-react';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';

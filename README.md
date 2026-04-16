@@ -39,7 +39,7 @@ src/
     friendDetails/[id]/
     stats/
     time_line/
-  Components/
+  components/
     Friends/
     Header/
     Footer/

@@ -1,6 +1,6 @@
-// import Friends from "@/Components/Friends/Friends";
+// import Friends from "@/components/Friends/Friends";
 import Friends from "@/components/Friends/Friends";
-import Stats from "@/Components/Stats/Stats";
+import Stats from "@/components/Stats/Stats";
 import { Plus } from "lucide-react";
 
 

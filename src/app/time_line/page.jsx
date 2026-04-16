@@ -1,6 +1,6 @@
 "use client"
-import ContactHis from '@/Components/ContactHis/ContactHis';
-import NoTimeline from '@/Components/NoTimeLine/NoTimeLine';
+import ContactHis from '@/components/ContactHis/ContactHis';
+import NoTimeline from '@/components/NoTimeLine/NoTimeLine';
 import { friendContext } from '@/Context/ContextProvider';
 import React, { useContext, useState } from 'react';
 
