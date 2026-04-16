@@ -1,6 +1,5 @@
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
-import Stats from "@/components/Stats/Stats";
 import "./globals.css";
 import ContextProvider from "@/Context/ContextProvider";
 

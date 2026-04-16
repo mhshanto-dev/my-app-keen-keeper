@@ -1,4 +1,5 @@
-import Friends from "@/Components/Friends/Friends";
+// import Friends from "@/Components/Friends/Friends";
+import Friends from "@/components/Friends/Friends";
 import Stats from "@/Components/Stats/Stats";
 import { Plus } from "lucide-react";
 
@@ -16,7 +17,7 @@ export default function Home() {
         <button className="flex px-3 py-2 items-center gap-1 rounded-md bg-green-800 text-white hover:scale-105"><Plus />  Add Friend</button>
       </div>
       <Stats />
-      <Friends></Friends>
+      <Friends/>
     </section>
   );
 }

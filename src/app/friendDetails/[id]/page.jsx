@@ -16,7 +16,7 @@ const page = async ({ params }) => {
 
 
     const dataPromise = async () => {
-        const res = await fetch('https://keen-keeper-mu.vercel.app/friends.json', {
+        const res = await fetch('http://localhost:3000/friends.json', {
             cache: 'no-store'
         })
         const data = await res.json()
@@ -123,3 +123,5 @@ const page = async ({ params }) => {
 };
 
 export default page;
+
+
