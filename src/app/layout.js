@@ -1,6 +1,7 @@
 import Header from "@/components/Header/Header";
 import "./globals.css";
 import Footer from "@/Components/Footer/Footer";
+import Stats from "@/Components/Stats/Stats";
 
 
 export const metadata = {
@@ -13,6 +14,7 @@ export default function RootLayout({ children }) {
     <html lang="en" data-theme="light">
       <body>
         <Header />  
+        <Stats></Stats>
         {children}
         <Footer/>
       </body>
