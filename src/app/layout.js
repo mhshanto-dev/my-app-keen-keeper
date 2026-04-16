@@ -6,7 +6,7 @@ import ContextProvider from "@/Context/ContextProvider";
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" data-theme="light">
+    <html lang="en" data-theme="black">
       <body>
         <ContextProvider>
           <Header />
