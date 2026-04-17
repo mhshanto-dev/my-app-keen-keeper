@@ -3,7 +3,7 @@
 Keen Keeper is a simple app made with Next.js to help you manage your friends and stay connected. You can track when you last contacted someone and see your relationship status easily.
 
 
-## Live Link: 
+## Live Link: https://my-app-keen-keeper.vercel.app/
 ## Features 
 View a list of friends from public/friends.json
 Search friends by name
